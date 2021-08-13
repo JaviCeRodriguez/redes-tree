@@ -1,3 +1,7 @@
 const Button = ({ typeButton }) => {
-    <button>Soy un boton</button>
+    return(
+        <button>Soy un boton</button>
+    )
 }
+
+export default Button
