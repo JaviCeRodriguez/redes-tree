@@ -6,12 +6,17 @@ import NotFound from "./pages/NotFound";
 
 const globalStyles = global({
   'body': {
-    margin: '0.5rem',
+    margin: '0rem',
     padding: '0rem',
+    height: '100vh'
+  },
+  '#root': {
+    height: '100%',
   },
   '*': {
     listStyle: 'none',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    lineHeight: '0.5rem',
   }
 })
 

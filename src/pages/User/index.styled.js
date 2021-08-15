@@ -4,11 +4,14 @@ export const StyledUser = styled('div', {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    flexWrap: "wrap",
+    height: '100%',
+
     '.container-embed': {
+        width: '100%',
+        padding: '0.4rem 0.62rem',
         display: 'flex',
-        flexDirection: 'column',
+        flexFlow: 'row wrap',
+        alignContent: 'flex-start',
         justifyContent: 'space-between',
-        width: '22rem'
     }
 })

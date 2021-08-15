@@ -7,7 +7,7 @@ const Perfil = ({ name, title, email, image }) => {
             <div className="info-user">
                 <h3>{name}</h3>
                 <h4>{title}</h4>
-                <p>Contact: {email}</p>
+                <p>Contact: <a href={`mailto:${email}`} alt="Enviar mensaje...">{email}</a></p>
             </div>
         </StyledPerfil>
     )
