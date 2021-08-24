@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import {Provider as SessionProvider} from "./session/context"
 import { global } from '@stitches/react';
 import Home from "./pages/Home";
 import User from "./pages/User";
@@ -24,7 +25,7 @@ const App = () => {
   globalStyles()
 
   return (
-    <>
+    <SessionProvider>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -32,7 +33,7 @@ const App = () => {
           <Route path="*" component={NotFound} />
         </Switch>
       </Router>
-    </>
+    </SessionProvider>
   );
 }
 
