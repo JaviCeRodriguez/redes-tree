@@ -1,4 +1,5 @@
 import { styled } from '@stitches/react';
+import SocialBg from '../../assets/images/social-media.jpg'
 
 export const StyledHome = styled('div', {
     fontFamily: 'Poppins, sans-serif',
@@ -72,7 +73,7 @@ export const StyledHome = styled('div', {
         '&::before': {    
             position: 'absolute',
             content: "",
-            backgroundImage: 'url("https://wmarketingdigital.com/wp-content/uploads/2017/07/social-media.jpg")',
+            backgroundImage: `url(${SocialBg})`,
             backgroundSize: 'cover',
             top: '0px',
             right: '0px',

@@ -1,6 +1,7 @@
 import { useUser } from "../../session/hooks"
 import { StyledHome } from "./index.styled"
 import LoginBtn from "../../components/LoginBtn";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const user = useUser();
@@ -9,17 +10,17 @@ const Home = () => {
 		<StyledHome>
 			<nav>
 				<div className="nav-links">
-					<a href="http://localhost:3000/" alt="" className="logo">
+					<Link to="/" className="logo">
 						🔗
-					</a>
+					</Link>
 					<ul>
-						<li><a href="http://localhost:3000/" alt="">Random</a></li>
-						<li><a href="http://localhost:3000/" alt="">Search</a></li>
-						<li><a href="http://localhost:3000/" alt="">About</a></li>
+						<li><Link to="/">Random</Link></li>
+						<li><Link to="/">Search</Link></li>
+						<li><Link to="/">About</Link></li>
 					</ul>
 				</div>
 				<div className="nav-login">
-					<ul><li><a href="http://localhost:3000/user/naruto" alt="">Mi Perfil</a></li></ul>
+					<ul><li><Link to="/user/naruto">Mi Perfil</Link></li></ul>
 					{!user ? <LoginBtn text="Login" /> : <LoginBtn text="Logout" />}
 				</div>
 			</nav>
