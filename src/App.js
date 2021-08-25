@@ -9,7 +9,8 @@ const globalStyles = global({
   'body': {
     margin: '0rem',
     padding: '0rem',
-    height: '100vh'
+    height: '100vh',
+    width: '100vw',
   },
   '#root': {
     height: '100%',
