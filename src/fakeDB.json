@@ -8,22 +8,22 @@
         "links": [
             {
                 "title": "Portfolio",
-                "href": "http://www.google.com.ar",
+                "href": "https://javier-rodriguez.vercel.app/",
                 "image": "http://pm1.narvii.com/7119/b0abdf491cffde4bdf95850956c1b15a5591a4b5r1-712-707v2_uhq.jpg"
             },
             {
                 "title": "Twitter",
-                "href": "http://www.google.com.ar",
+                "href": "https://twitter.com/javicerodriguez",
                 "image": "http://pm1.narvii.com/7119/b0abdf491cffde4bdf95850956c1b15a5591a4b5r1-712-707v2_uhq.jpg"
             },
             {
                 "title": "Polywork",
-                "href": "http://www.google.com.ar",
+                "href": "https://www.polywork.com/javo",
                 "image": "http://pm1.narvii.com/7119/b0abdf491cffde4bdf95850956c1b15a5591a4b5r1-712-707v2_uhq.jpg"
             },
             {
                 "title": "FrontendCafe",
-                "href": "http://www.google.com.ar",
+                "href": "https://frontend.cafe/",
                 "image": "http://pm1.narvii.com/7119/b0abdf491cffde4bdf95850956c1b15a5591a4b5r1-712-707v2_uhq.jpg"
             }
         ]

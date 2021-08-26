@@ -1,11 +1,10 @@
+import { Link } from "react-router-dom";
 import { useUser } from "../../session/hooks"
 import { StyledHome } from "./index.styled"
 import LoginBtn from "../../components/LoginBtn";
-import { Link } from "react-router-dom";
 
 const Home = () => {
 	const user = useUser();
-	// TODO: Usar Link de react-router-dom
 	return(
 		<StyledHome>
 			<nav>
@@ -27,7 +26,7 @@ const Home = () => {
 			<main>
 				<div className='slogan'>
 					<h2>Todas tus redes, en un solo lugar</h2>
-					<h3>No pierdas tus conexiones!</h3>
+					<h4>No pierdas tus conexiones!</h4>
 				</div>
 			</main>
 		</StyledHome>

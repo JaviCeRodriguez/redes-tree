@@ -17,8 +17,8 @@ const User = () => {
                 <Perfil name={name} title={title} email={email} image={image} />
                 <div className="container-embed">
                 {
-                    links.map(link => {
-                        return <Embed title={link.title} href={link.href} image={link.image} />
+                    links.map((link, key) => {
+                        return <Embed key={key} title={link.title} href={link.href} image={link.image} />
                     })
                 }
                 </div>

@@ -1,17 +1,20 @@
-import { styled } from '@stitches/react';
+import { styled } from '../../stitches.config'
 
 export const StyledUser = styled('div', {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "space-between",
-    height: '100%',
+    
+    '@tablet': {
+        height: '100%',
+        flexDirection: "row",
+    },
 
     '.container-embed': {
         width: '100%',
-        padding: '0.4rem 0.62rem',
         display: 'flex',
         flexFlow: 'row wrap',
         alignContent: 'flex-start',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
     }
 })
