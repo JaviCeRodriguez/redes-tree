@@ -1,27 +1,27 @@
-import { styled } from '@stitches/react';
+import { styled } from "@stitches/react";
 
-export const StyledEmbed = styled('div', {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    width: '20rem',
-    height: '7rem',
-    margin: '0.6rem 0.3rem',
-    backgroundColor: '#e36432',
-    borderRadius: '0.65rem',
-    overflow: 'hidden',
-    boxShadow: '0 0 0.3rem 0.03rem rgba(0, 0, 0, 0.20)',
+export const StyledEmbed = styled("div", {
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "space-between",
+  alignItems: "center",
+  width: "20rem",
+  height: "7rem",
+  margin: "0.6rem 0.3rem",
+  backgroundColor: "#e36432",
+  borderRadius: "0.65rem",
+  overflow: "hidden",
+  boxShadow: "0 0 0.3rem 0.03rem rgba(0, 0, 0, 0.20)",
 
-    h3: {
-        color: 'white',
-        fontFamily: 'Rubik, sans-serif',
-        fontWeight: 500,
-        marginLeft: '1rem'
-    },
-    
-    img: {
-        width: '10rem',
-        objectFit: 'cover',
-    }
-})
+  h3: {
+    color: "white",
+    fontFamily: "Rubik, sans-serif",
+    fontWeight: 500,
+    marginLeft: "1rem",
+  },
+
+  img: {
+    width: "10rem",
+    objectFit: "cover",
+  },
+});
